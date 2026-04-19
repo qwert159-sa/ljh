@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>春韵 · 数字展销平台</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/lab2-CS2024-101-index.css">
+</head>
+<body>
+<header id="main-header">
+    <div class="header-container">
+        <div class="logo-area">
+            <img src="img/spring-logo.svg" alt="春韵logo" class="logo-img" 
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-block';">
+            <span class="logo-text" style="display: none;"><i class="fas fa-leaf"></i> 春韵·书屋</span>
+            <span class="logo-title">春韵书坊</span>
+        </div>
+        <nav class="main-nav">
+            <ul class="nav-list clearfix">
+                <li><a href="#"><i class="fas fa-home"></i> 首页</a></li>
+                <li><a href="#"><i class="fas fa-book"></i> 展销</a></li>
+                <li><a href="#"><i class="fas fa-fire"></i> 热门</a></li>
+                <li><a href="#"><i class="fas fa-star"></i> 新书</a></li>
+                <li><a href="#"><i class="fas fa-user"></i> 我的</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<div class="container main-wrapper">
+    <aside class="sidebar left-sidebar">
+        <div class="sidebar-card">
+            <h3><i class="fas fa-list-ul"></i> 图书分类</h3>
+            <ul class="category-nav">
+                <li><a href="#">📖 文学小说</a></li>
+                <li><a href="#">📚 人文社科</a></li>
+                <li><a href="#">💻 计算机技术</a></li>
+                <li><a href="#">🎨 艺术设计</a></li>
+                <li><a href="#">🧒 少儿读物</a></li>
+                <li><a href="#">🌱 生活·园艺</a></li>
+                <li><a href="#">📈 经济管理</a></li>
+                <li><a href="#">🔬 科普百科</a></li>
+            </ul>
+        </div>
+        <div class="season-tip">
+            <i class="fas fa-seedling"></i> 春韵·阅读正当时
+        </div>
+    </aside>
+    <main class="content middle-content">
+        <section class="showcase">
+            <h2 class="section-title"><span>🌸 主编力荐 · 春韵书单</span></h2>
+            <div class="book-grid">
+                <div class="book-card parent-relative">
+                    <div class="book-cover">
+                         <img src="85.avif"width="200"height="300">
+                        <span class="cover-text">春之森</span>
+                    </div>
+                    <h4>《春日序曲》</h4>
+                    <p class="author">陈春和</p>
+                     <div class="hover-info">
+        <div class="price">¥48.00</div>
+        <div class="author-line">作者：陈春和</div>
+        <a href="#" class="buy-btn">立即购买</a>
+    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="23235354-1_u_1.jpg"width="200"height="300">
+                        <span class="cover-text">风之语</span>
+                    </div>
+                    <h4>《风中的纸屑》</h4>
+                    <p class="author">周晓风</p>
+                    <div class="hover-info">
+        <div class="price">¥52.00</div>
+        <div class="author-line">作者：周晓风</div>
+        <a href="#" class="buy-btn">立即购买</a>
+    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-cover">
+                        <img src="B7A4EF600AC51AC9BA49565A266_1AE6353C_2385F.png"width="200"height="300">
+                        <span class="cover-text">暖阳集</span>
+                    </div>
+                    <h4>《山谷微风》</h4>
+                    <p class="author">余华</p>
+                    <div class="hover-info">
+        <div class="price">¥59.00</div>
+        <div class="author-line">作者：余华</div>
+        <a href="#" class="buy-btn">立即购买</a>
+    </div>
+                </div>
+            </div>
+        </section>
+        <section class="new-books">
+            <h2 class="section-title"><span>新书上市</span></h2>
+            <table class="book-table">
+                <thead>
+                    <tr>
+                        <th>书名</th>
+                        <th>作者</th>
+                        <th>定价</th>
+                        <th>上架时间</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>《去有风的旷野》</td>
+                        <td>阿来</td>
+                        <td>¥59.00</td>
+                        <td>2026-03-15</td>
+                    </tr>
+                    <tr>
+                        <td>《食南之徒》</td>
+                        <td>马伯庸</td>
+                        <td>¥68.00</td>
+                        <td>2026-02-28</td>
+                    </tr>
+                    <tr>
+                        <td>《山谷微风》</td>
+                        <td>余华</td>
+                        <td>¥49.50</td>
+                        <td>2026-04-01</td>
+                    </tr>
+                    <tr>
+                        <td>《我们生活在巨大的差距里》</td>
+                        <td>余华</td>
+                        <td>¥42.00</td>
+                        <td>2026-03-20</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</div>
+<aside class="right-fixed-ad">
+    <div class="ad-card secondary">
+        <p><i class="fas fa-truck"></i> 春日包邮 · 满39免运费</p>
+        <p class="small">新用户专享10元券</p>
+        <button class="fake-btn" style="cursor: pointer;"><i class="fas fa-chevron-circle-right"></i> 立即领取</button>
+    </div> -->
+</aside>
+<footer style="clear: both; text-align: center; padding: 20px 0 10px; margin-top: 30px; color: #6b8c6b; border-top: 1px dashed #c0d6c0;">
+    <p>© 2026 春韵数字展销平台 · 实验任务 lab2-CS2024-101-index.html</p>
+</footer>
+</body>
+</html>
